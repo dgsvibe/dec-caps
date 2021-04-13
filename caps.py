@@ -20,7 +20,7 @@ def module(n):
     if n >= 0:
         return n
 
-caps = [0, 0.1, 0.22, 0.33, 0.47, 0.56, 0.68, 1, 2.2, 3.3, 4.7, 10] #Valores comerciais dos resistores em uF
+caps = [0, 0.1, 0.22, 0.33, 0.47, 0.56, 0.68, 1, 2.2, 3.3, 4.7, 10] #Valores comerciais dos capacitores em uF
 capsPermList = []
 
 genComb = product(caps, repeat=4) # aqui e onde tens de especificar o numero de chars que cada combinacao tenha
